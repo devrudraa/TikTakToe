@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tak Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h3>Tik Tak Toe</h3>
+    </nav>
+    <div class="main">
+        <div class="boxes">
+            <div id="line"></div>
+            <div class="box t-0 l-0"><span class="boxText"></span></div>
+            <div class="box t-0"><span class="boxText"></span></div>
+            <div class="box t-0 r-0"><span class="boxText"></span></div>
+            <div class="box l-0"><span class="boxText"></span></div>
+            <div class="box"><span class="boxText"></span></div>
+            <div class="box r-0"><span class="boxText"></span></div>
+            <div class="box b-0 l-0"><span class="boxText"></span></div>
+            <div class="box b-0"><span class="boxText"></span></div>
+            <div class="box b-0 r-0"><span class="boxText"></span></div>
+        </div>
+
+        <div class="info">
+            <h3>Welcome to Tik Tak Toe</h3>
+            <div class="score">Score: 
+                <Span class="turn">X</Span>:<Span class="pointX">0</Span>
+                <Span class="turn">O</Span>:<Span class="pointY">0</Span>
+            </div>
+            <h5 class="MainInfo">It's <span class="turn">X</span> turn</h5>
+            <img id="dance" src="static/excited.gif" alt="Dance Image"><br>
+            <button id="reset" onclick="Reset()">Reset</button>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</html>
