@@ -11,9 +11,6 @@ Welcome to TikTakToe! This is a simple implementation of the classic Tic-Tac-Toe
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
